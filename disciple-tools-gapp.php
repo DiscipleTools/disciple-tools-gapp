@@ -163,7 +163,6 @@ class DT_Gapp {
         require_once( 'includes/rest-api.php' );
 
         // sample post type class
-        require_once( 'includes/post-type.php' );
 
         // custom site to site links
         require_once( 'includes/custom-site-to-site-links.php' );
