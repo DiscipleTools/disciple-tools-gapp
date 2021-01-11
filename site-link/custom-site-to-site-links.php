@@ -33,7 +33,7 @@ class DT_Gapp_Site_Links {
     }
 
     public function site_link_type( $type ) {
-        $type[$this->type] = __( 'GAPP' );
+        $type[$this->type] = __( 'Gapp' );
         return $type;
     }
 }

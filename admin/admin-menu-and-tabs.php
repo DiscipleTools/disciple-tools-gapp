@@ -59,7 +59,7 @@ class DT_Gapp_Menu {
      */
     public function register_menu() {
         add_menu_page( __( 'Extensions (DT)', 'disciple_tools' ), __( 'Extensions (DT)', 'disciple_tools' ), 'manage_dt', 'dt_extensions', [ $this, 'extensions_menu' ], 'dashicons-admin-generic', 59 );
-        add_submenu_page( 'dt_extensions', __( 'GAPP', 'dt_gapp' ), __( 'GAPP', 'dt_gapp' ), 'manage_dt', $this->token, [ $this, 'content' ] );
+        add_submenu_page( 'dt_extensions', __( 'Gapp', 'dt_gapp' ), __( 'Gapp', 'dt_gapp' ), 'manage_dt', $this->token, [ $this, 'content' ] );
     }
 
     /**
@@ -87,7 +87,7 @@ class DT_Gapp_Menu {
 
         ?>
         <div class="wrap">
-            <h2><?php esc_attr_e( 'GAPP', 'dt_gapp' ) ?></h2>
+            <h2><?php esc_attr_e( 'Gapp', 'dt_gapp' ) ?></h2>
             <h2 class="nav-tab-wrapper">
                 <a href="<?php echo esc_attr( $link ) . 'general' ?>"
                    class="nav-tab <?php echo esc_html( ( $tab == 'general' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>"><?php esc_attr_e( 'General', 'dt_gapp' ) ?></a>
