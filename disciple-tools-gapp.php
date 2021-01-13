@@ -1,15 +1,14 @@
 <?php
 /**
  * Plugin Name: Disciple Tools - Gapp
- * Plugin URI: https://github.com/DiscipleTools/disciple-tools-dt-gapp
- * Description: Disciple Tools - Gapp is intended to help developers and integrator jumpstart their extension
- * of the Disciple Tools system.
- * Version:  1.0
+ * Plugin URI: https://github.com/DiscipleTools/disciple-tools-gapp
+ * Description: Disciple Tools - Gapp
+ * Version:  0.1
  * Author URI: https://github.com/DiscipleTools
- * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-dt-gapp
- * Requires at least: 4.7.0
+ * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-gapp
+ * Requires at least: 4.7
  * (Requires 4.7+ because of the integration of the REST API at 4.7 and the security requirements of this milestone version.)
- * Tested up to: 5.4
+ * Tested up to: 5.6
  *
  * @package Disciple_Tools
  * @link    https://github.com/DiscipleTools
@@ -135,7 +134,7 @@ class DT_Gapp {
 
         // Admin and settings variables
         $this->token             = 'dt_gapp';
-        $this->version             = '1.0';
+        $this->version             = '0.1';
 
         // Main plugin directory path and URI.
         $this->dir_path     = trailingslashit( plugin_dir_path( __FILE__ ) );
